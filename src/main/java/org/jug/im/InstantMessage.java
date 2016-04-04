@@ -11,7 +11,9 @@ import static javax.persistence.GenerationType.IDENTITY;
 @Entity
 public class InstantMessage implements Serializable {
 
-    @Id
+	private static final long serialVersionUID = -5492449108448762354L;
+
+	@Id
     @GeneratedValue(strategy = IDENTITY)
     private Long id;
 

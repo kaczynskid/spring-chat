@@ -12,7 +12,7 @@ app.controller('ChatCtrl', function($scope, ngstomp) {
     });
 
     $scope.msg = {};
-    $scope.msg.sender = 'John';
+    $scope.msg.sender = '';
     $scope.msg.content = '';
 
     $scope.sendMsg = function() {
